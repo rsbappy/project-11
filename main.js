@@ -33,4 +33,16 @@ $(document).ready(function () {
     function remove() {
         $('.copied').removeClass('bounce-effect')
     }
+
+
+
+    //// Call the functions and copy the text on button click
+
+    $('.copy-btn').click(function () {
+        $('.text-field').select();
+        document.execCommand('copy');
+        add();
+        setTimeout(remove, 800)
+
+    })
 });
