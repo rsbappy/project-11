@@ -75,10 +75,10 @@ h1 {
 
 span.copied {
     display: block;
-    margin-top: 50px;
+    margin-top: -20px;
     text-align: center;
     font-size: 26px;
-    color: #858585;
+    color: rgb(3, 110, 3);
     transform: scale(0);
     transition: all 0.5s;
 }
